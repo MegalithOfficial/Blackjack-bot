@@ -1,6 +1,6 @@
 import { Client as BaseClient, Events, EmbedBuilder as Embed, ButtonBuilder as Button, ButtonStyle, ActionRowBuilder as Row } from "discord.js"
-
 import { Blackjack } from "./classes/Blackjack.js";
+import config from "./config.js"
 
 const client = new BaseClient({
     intents: 3276799
@@ -159,7 +159,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
 })
 
-client.login("MTA3MTA5NzY0NzI1NzEwMDI4OA.GVOC11.xUEQl8ExFOD7ajeO1cCMnV9PMpMb3I1_sV_h6k")
+client.login(config.Bot.Token)
 
 process.on("uncaughtException", (err) => {
     console.log(err)
