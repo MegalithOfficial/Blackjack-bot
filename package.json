@@ -1,0 +1,24 @@
+{
+  "name": "blackjack-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Simple Blackjack bot made with Discord.js V14.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "MegalithOfficial",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegalithOffical/Blackjack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MegalithOffical/Blackjack/issues"
+  },
+  "homepage": "https://github.com/MegalithOffical/Blackjack#readme"
+}
