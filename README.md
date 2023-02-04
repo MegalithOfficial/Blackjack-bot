@@ -1,5 +1,5 @@
 # Blackjack-bot
-A simple A Simple Blackjack bot made with Discord.js V14.
+A Simple Blackjack bot made with Discord.js V14.
 
 ## installation
 ### Step 1: Clone the repo from github and unzip to Desktop.
